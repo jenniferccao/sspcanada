@@ -1,4 +1,3 @@
-import logo from './logo.svg';
 import './App.css';
 
 import Home from './Pages/Home.jsx';
@@ -6,17 +5,17 @@ import History from './Pages/History.jsx';
 import References from './Pages/References.jsx';
 import Footer from './Pages/Footer.jsx';
 
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
+
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-      </header>
-      <Home/>
-      <History/>
-      <References/>
-      <Footer/>
-    </div>
+    <BrowserRouter basename="/sspcanada">
+      <Routes>
+        <Route path="/" element={<Home />} />
+      </Routes>
+    </BrowserRouter>
   );
 }
+
 
 export default App;
