@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/sspcanada/static/css/main.ab743566.css",
-    "main.js": "/sspcanada/static/js/main.458a4dad.js",
+    "main.js": "/sspcanada/static/js/main.d1f5d1d3.js",
     "index.html": "/sspcanada/index.html",
     "main.ab743566.css.map": "/sspcanada/static/css/main.ab743566.css.map",
-    "main.458a4dad.js.map": "/sspcanada/static/js/main.458a4dad.js.map"
+    "main.d1f5d1d3.js.map": "/sspcanada/static/js/main.d1f5d1d3.js.map"
   },
   "entrypoints": [
     "static/css/main.ab743566.css",
-    "static/js/main.458a4dad.js"
+    "static/js/main.d1f5d1d3.js"
   ]
 }
