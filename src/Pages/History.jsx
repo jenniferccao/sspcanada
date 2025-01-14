@@ -5,9 +5,9 @@ export default function History () {
         <div className='body-container'>
             <div className='body-content'>
                 <h1>OUR STORY</h1>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                <p>Founded by Adam Yang in 2020 as Scarborough Sneaker Plug, SSP quickly grew from a local initiative to a Canada-wide community. Our mission is simple: to resell sought-after sneakers while fostering a vibrant community of sneaker enthusiasts. Since opening, we've proudly sold over 10,000 pairs, connecting sneaker lovers across the country with the kicks they crave.</p>
 
-                <div className='about-image'>IMG</div>
+                <img src={`${process.env.PUBLIC_URL}/adam.png`} className='about-image' alt='Instagram Image'></img>
             </div>
         </div>
     );
